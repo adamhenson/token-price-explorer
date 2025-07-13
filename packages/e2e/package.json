@@ -1,0 +1,20 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "E2E testing for token-price-explorer application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": ["e2e", "testing", "playwright"],
+  "author": "Adam Henson",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  }
+}
