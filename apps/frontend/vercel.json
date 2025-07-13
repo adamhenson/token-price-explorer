@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd ../.. && npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "cd ../.. && npm ci",
+  "regions": ["iad1"],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
