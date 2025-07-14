@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Token Price Explorer',
   description: 'Convert USD to crypto tokens instantly with real-time prices',
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
