@@ -4,7 +4,7 @@ A modern token price explorer interface built with Next.js 15, TypeScript, and T
 
 ## 🚀 Live Demo
 
-**Deployed URL**: [To be added after Vercel deployment]
+**Deployed URL**: [token-price-explorer-lilac.vercel.app](https://token-price-explorer-lilac.vercel.app/)
 
 ## 🏗️ Architecture
 
@@ -13,11 +13,11 @@ This project uses a monorepo structure with NPM workspaces:
 ```
 crypto-swap/
 ├── apps/
-│   └── frontend/          # Next.js 15 frontend application
+│   └── frontend/    # Next.js 15 frontend application
 ├── packages/
-│   └── e2e/              # Playwright E2E tests
-├── package.json          # Root workspace configuration
-└── README.md            # This file
+│   └── e2e/         # Playwright E2E tests
+├── package.json     # Root workspace configuration
+└── README.md        # This file
 ```
 
 ## ✨ Features
@@ -67,7 +67,7 @@ crypto-swap/
 
 1. **Clone the repository**
    ```bash
-   git clone git@github.com:adamhenson/crypto-swap.git
+   git clone git@github.com:adamhenson/token-price-explorer.git
    cd crypto-swap
    ```
 
@@ -228,30 +228,3 @@ This project uses conventional commits with methodical timing:
 - First commit: 6 hours ago
 - Subsequent commits: Every 10 minutes
 - Granular commits: Each feature as separate commits
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests: `npm run test`
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- **FunKit** - For providing the crypto token API
-- **shadcn/ui** - For the excellent UI component library
-- **Vercel** - For the deployment platform
-- **Playwright** - For the robust E2E testing framework
-
-## 📞 Support
-
-For support, please contact: adam.henson@example.com
-
----
-
-*Built with ❤️ by Adam Henson* 
