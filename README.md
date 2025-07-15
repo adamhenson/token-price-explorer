@@ -49,7 +49,7 @@ crypto-swap/
 
 ### Testing
 - **Playwright** - End-to-end testing framework
-- **Multiple Browsers** - Chrome, Firefox, Safari, and mobile testing
+- **Multiple Browsers** - Chrome, Firefox, Safari, and mobile testing (currently just testing on Chrome Desktop and mobile Safari).
 
 ### Development Tools
 - **Biome** - Fast linting and formatting
