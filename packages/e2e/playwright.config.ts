@@ -36,7 +36,10 @@ export default defineConfig({
     },
     {
       name: 'mobile-safari',
-      use: { ...devices['Mobile Safari'] },
+      use: {
+        ...devices['Mobile Safari'],
+        viewport: { width: 375, height: 667 }, // iPhone SE size
+      },
     },
   ],
 
