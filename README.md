@@ -11,7 +11,7 @@ A modern token price explorer interface built with Next.js 15, TypeScript, and T
 This project uses a monorepo structure with NPM workspaces:
 
 ```
-crypto-swap/
+token-price-explorer/
 ├── apps/
 │   └── frontend/    # Next.js 15 frontend application
 ├── packages/
@@ -49,7 +49,7 @@ crypto-swap/
 
 ### Testing
 - **Playwright** - End-to-end testing framework
-- **Multiple Browsers** - Chrome, Firefox, Safari, and mobile testing (currently just testing on Chrome Desktop and mobile Safari).
+- **Multiple Browsers** - Chrome Desktop and mobile Safari testing
 
 ### Development Tools
 - **Biome** - Fast linting and formatting
@@ -60,7 +60,7 @@ crypto-swap/
 
 ### Prerequisites
 
-- Node.js >= 24.4.0 < 24.5.0
+- Node.js >= 18.0.0
 - npm (comes with Node.js)
 
 ### Installation
@@ -68,7 +68,7 @@ crypto-swap/
 1. **Clone the repository**
    ```bash
    git clone git@github.com:adamhenson/token-price-explorer.git
-   cd crypto-swap
+   cd token-price-explorer
    ```
 
 2. **Install dependencies**
@@ -170,7 +170,7 @@ NEXT_PUBLIC_FUNKIT_API_KEY=your-api-key-here
 2. **Configure Build Settings**
    - Build Command: `cd apps/frontend && npm run build`
    - Output Directory: `apps/frontend/.next`
-   - Node.js Version: 24.x
+   - Node.js Version: 18.x or higher
 
 3. **Environment Variables**
    Set the FunKit API key in Vercel dashboard if using environment variables
@@ -202,7 +202,7 @@ The test suite covers:
 1. **Happy Path Testing**: Normal user workflows
 2. **Edge Case Testing**: Error conditions and boundary values
 3. **Performance Testing**: Load times and responsiveness
-4. **Cross-browser Testing**: Chrome, Firefox, Safari compatibility
+4. **Cross-browser Testing**: Chrome Desktop and mobile Safari compatibility
 5. **Mobile Testing**: Touch interactions and responsive layouts
 
 ## 📊 Performance Considerations
